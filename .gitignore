@@ -1,0 +1,20 @@
+# Logs
+logs
+*.log
+
+# IDE - VSCode
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+# Custom
+.private
+.terraform
+*.tfstate
+*.tfstate.*
+*.lock.hcl
+*.tfvars
+.ssh
+*.pem
