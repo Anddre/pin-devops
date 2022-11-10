@@ -22,8 +22,8 @@ sudo install -o root -g root -m 0755 kubectl /usr/local/bin/kubectl
 sudo snap install docker
 
 # Adding Docker group and setting permissions
-sudo groupadd docker
-sudo usermod -aG docker ${USER}
+# sudo groupadd docker
+# sudo usermod -aG docker ${USER}
 
 # Install HELM (Debian/Ubuntu) https://helm.sh/es/docs/intro/install/
 curl https://baltocdn.com/helm/signing.asc | sudo apt-key add -

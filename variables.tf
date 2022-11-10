@@ -14,3 +14,7 @@ variable "aws_region" {
   type    = string
   default = "us-east-2"
 }
+
+variable "KUBE_CONFIG_DATA_STAGING" {
+  type = string
+}
